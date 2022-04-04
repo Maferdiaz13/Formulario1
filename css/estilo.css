@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:after, *:before {
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+  }
+  
+  .contenedor {
+    max-width:1000px;
+    margin:0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Arial', Arial;
+  }
+
+  h2 {
+    
+    font-family: 'Arial', arial;
+    font-size: 20px;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: 'Arial', Arial;
+    font-size: 20px;
+  }
+  
+  
+  div.contenido {
+    width: 80%;
+    margin: 50px auto 0 auto;
+    font-size: 24px;
+  }
+  div.campo {
+    margin-bottom: 10px;
+  }
+  div.informacion,
+  div.sexo,
+  div.especializacion {
+    margin-top: 20px;
+  }
+  div.sexo::after,
+  div.informacion::after {
+    content: '';
+    display: block;
+    clear: both;
+  } 
+  div.sexo > .campo {
+    width: 40%;
+    float: right;
+  }
+  label {
+    font-family: geneva;
+    display:grid;
+    font-size: 25px;
+  }
+  input{
+    height: 25px;
+  }
+ 
